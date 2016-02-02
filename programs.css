@@ -1,0 +1,148 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 5
+   Review Assignment
+
+   Programming Table Style Sheet
+   Author: Sam Asher
+   Date:   7/14/2013
+
+   Filename:         programs.css
+   Supporting Files: 
+
+*/
+
+form
+{
+  display: block;
+  float: left;
+  clear: left;
+  width: 100%;
+}
+
+fieldset
+{
+  display: block;
+  background-color: rgb(205, 246, 255);
+  border: 1% solid rgb(233, 69, 0);
+  float: left;
+  margin: 1%;
+}
+
+fieldset#crn
+{
+  width: 30%;
+}
+
+fieldset#selection
+{
+  width: 45%;
+}
+
+label.selections
+{
+  display: block;
+  float: left;
+  clear: left;
+  width: 30%;
+}
+
+.selection_drops
+{
+  display: block;
+  width: 40%;
+  float: left;
+}
+
+.selection_buttons
+{
+  display: block;
+  width: 20%;
+  float: left;
+  margin-left: 1%;
+}
+
+label.assigned
+{
+  display: block;
+  float: left;
+  clear:left;
+  width: 20%;
+}
+
+/* General Table Styles */
+
+table.programs
+{
+  float: left;
+  clear:left;
+  width: 96%;
+  border: 2px solid black;
+  border-collapse: collapse;
+  font-family: Arial, Verdana, sans-serif;
+  margin: 20px 2% 0px 2%;
+}
+
+table.programs caption
+{
+  caption-side: bottom;
+  text-align: left;
+  font-size: 0.8em;
+}
+
+/* Body Data Cell Styles */
+
+table.programs tbody td
+{
+  font-size: 0.7em;
+  vertical-align: top;
+  border: 1px solid gray;
+  padding: 2px;
+}
+
+/* Row Styles */
+
+table tr
+{
+  height: 15px;
+}
+
+/* Header Styles */
+
+table thead tr
+{
+  color: white;
+  background-color: rgb(105, 177, 60);
+  font-size: 0.7em;
+  border: 1px solid gray;
+}
+
+table thead tr th:first-of-type
+{
+  background-color: rgb(153, 86, 7);
+}
+
+table thead tr th:nth-of-type(7)
+{
+  background-color: rgb(153, 0, 153);
+}
+
+table thead tr th:nth-of-type(8)
+{
+  background-color: rgb(153, 0, 153);
+}
+
+/* Column Styles */
+
+colgroup col.timeColumn
+{
+  width: 10%;
+  background-color: rgb(215, 205, 151);
+}
+
+colgroup col.wDayColumns
+{
+  width: 18%;
+  background-color: rgb(236, 255, 211);
+}
+

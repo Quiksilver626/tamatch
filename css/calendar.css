@@ -1,0 +1,189 @@
+.btn-block {
+  width: 20%;
+  margin-left:79%;
+  margin-right: 2%;
+}
+
+p{
+  margin: 5px;
+  font: 20px sans-serif;
+}
+
+p2{
+  text-align: center;
+  margin: 0px;
+  font: 18px sans-serif;
+  color: gold;
+}
+
+.shadow40 {
+  color: gold;
+  text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
+}
+
+form
+{
+  display: block;
+  float: left;
+  clear: left;
+  width: 100%;
+}
+
+fieldset
+{
+  background-color: #17294b;
+  border: 1% solid rgb(233, 69, 0);
+  float: left;
+  margin: 1%;
+}
+
+fieldset#fcrn
+{
+  width: 30%;
+}
+
+#fcrn #crn
+{
+  width: 70%;
+}
+
+#fcrn #submit
+{
+  width: 25%;
+  float: right;
+}
+
+fieldset#selection
+{
+  width: 45%;
+}
+
+label.selections
+{
+  display: block;
+  float: left;
+  clear: left;
+  width: 30%;
+  margin-left: 5%;
+}
+
+.selection_drops
+{
+  display: block;
+  width: 45%;
+  float: left;
+}
+
+.selection_buttons
+{
+  display: block;
+  width: 10%;
+  float: left;
+  margin-left: 1%;
+}
+
+
+label.assigned
+{
+  
+  display: block;
+  float: left;
+  clear:left;
+  width: 25%;
+  text-align: right;
+  margin-right: 1%;
+  font: 18px sans-serif;
+  color: gold;
+  text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
+}
+
+table
+{
+  float: left;
+  clear: left;
+  width:90%; 
+  margin-left:5%; 
+  margin-right:5%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+colgroup col.timeColumn
+{
+  width: 15%;
+  background-color: #17294b;
+}
+
+
+colgroup col.wDayColumns
+{
+  width: 18%;
+  background-color: #17294b;
+}
+
+td, th
+{
+ border: thin inset black;  
+ border-collapse: collapse;
+}
+
+
+td#empty0
+{
+  background-color: rgb(248,248,248);
+  border-bottom: rgb(248,248,248);
+}
+td#empty1
+{
+  background-color: rgb(240,240,240) ;
+  border-bottom: rgb(240,240,240) ;
+  border-top: rgb(255,255,168);
+}
+td#empty2
+{
+  background-color: rgb(232,232,232);
+  border-top: rgb(232,232,232);
+}
+td#nonempty
+{
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+
+td.color0
+{
+   background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFF00), to(#FFA229));
+}
+td.color1
+{
+   background-image: -webkit-gradient(linear, left top, left bottom, from(#36FFEB), to(#025ABF));
+}
+td.color2
+{
+   background-image: -webkit-gradient(linear, left top, left bottom, from(#DE6A1D), to(#FF0000));
+}
+td.color3
+{
+   background-image: -webkit-gradient(linear, left top, left bottom, from(#0FDB00), to(#00B353));
+}
+td.color4
+{
+   background-image: -webkit-gradient(linear, left top, left bottom, from(#FF808E), to(#883FBF));
+}
+td.color5
+{
+   background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#807C7C));
+}
+
+#error
+{
+ display: block;
+ float: left;
+ clear: left;
+    background-color: rgba(255,0,0,.3);
+    color: rgb(200,0,0);
+    font-weight: bold;
+    text-indent: 10px;
+    margin: 10px 5px 5px 5px;
+}

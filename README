@@ -1,0 +1,68 @@
+This is the README for the TA Match Website, created by Sam Asher, Trevor Chan,
+  Miguel Gil, and Corina Putinar for Professor de Loera and the Math Department.
+
+Contents:
+  1. INTRO - An introduction to what this software is and why it was created.
+  2. DATA - A brief guide to the underlying database.
+  3. STAFF - A guide to using the staff interface.
+  4. TASITE - A guide to using the TA interface.
+  5. DEBUG - Tips on debugging.
+
+INTRO
+    The purpose of this software is to automatically match teaching assistants to sections.
+  Previously, this was done by hand, which was altogether inefficient. This software 
+  automates the tasks of obtaining preferences from the TAs and producing a matching of
+  TAs to sections.
+
+    In order to understand the inner workings of this software, you must have at least a 
+  working knowledge of PHP and ZIMPL. Knowledge/experience of SQL and basic UNIX commands
+  will help you to fully understand all components of the software but is not necessary for
+  most debugging. 
+
+    To get into the directory where the site is hosted, you'll need to ssh in from Terminal.
+  Terminal comes with any Mac or Linux OS. If you use Windows, consider using a client
+  such as CYGWIN or PUTTY.
+    Once you are in Terminal, type
+      ssh [username]@tamatch.math.ucdavis.edu
+  You will then be prompted for a password. Credentials will not be given in this README,
+  it is to Professor de Loera's discretion who will be given credentials.
+    Now you are on the tamatch server, but you still need to reach the files. Type:
+      cd /var/www/html/MathWeb
+  IMPORTANT: Once you are in this directory, you have access to all the files that make
+  the software work. If you delete or alter any of these files, the software may cease to
+  function properly. Handle the files here with care and at the least make backups of the
+  files you change so you're not stuck with worthless files.
+
+DATA
+  The data for this project is kept in a SQLite database named tamatch.db. To open it, type:
+      sqlite3 tamatch.db
+  You will be brought to another command prompt. From here you can see all the tables with
+      .tables
+  If you want to know about a particular table, type
+      .schema [tablename]
+  Assuming you understand SQL, the following should suffice as a brief explanation of the
+  tables in the database.
+    ta - information about each TA in the system
+    department - list of all UCD departments
+    course  - list of all UCD courses
+    quarters - list of quarters at UCD. Should be filled for the next 200 years.
+    section - Holds all sections. Remember a section has a corresponding dept, course,
+              and quarter.
+    event - Every section has some events (lecture, discussion, lab). Events are just blocks
+            of time associated with a section.
+    professor - has minimal prof information
+    units - since the same TA can have varying numbers of units per quarter, this table
+            has foreign keys in ta and quarter.
+    tod - has all the different times of day. Currently we are using hours but one could
+          use smaller or larger intervals if desired.
+    rtod - links ta and tod. Every ta has a tod preference.
+    rcourse - links ta and course. Every ta has a course preference.
+    pref - links ta and section. Could be thought of as "rsection"
+    calendar - links ta and event. TAs take their own classes which we record here.
+    login - contains login information for the TA site
+    login_staff - contains login information for the staff site
+    deadline - stores the deadline each quarter after which TAs cannot enter preferences
+    force_match - stores the force matches. (Staff can force a TA and section to be paired.)
+    professor_conflict - unused table.
+
+

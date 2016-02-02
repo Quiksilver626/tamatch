@@ -1,0 +1,470 @@
+SCIP version 3.1.0 [precision: 8 byte] [memory: block] [mode: optimized] [LP solver: SoPlex 2.0.0] [GitHash: 577ee45]
+Copyright (c) 2002-2014 Konrad-Zuse-Zentrum fuer Informationstechnik Berlin (ZIB)
+
+reading parameter file <scip/scipmip.set>
+
+read problem <input.lp>
+============
+
+original problem has 28620 variables (0 bin, 28620 int, 0 impl, 0 cont) and 812508 constraints
+solve problem
+=============
+presolving:
+(round 1) 18784 del vars, 467977 del conss, 0 add conss, 18784 chg bounds, 0 chg sides, 0 chg coeffs, 0 upgd conss, 354676 impls, 162 clqs
+(round 2) 28512 del vars, 812506 del conss, 0 add conss, 28277 chg bounds, 0 chg sides, 0 chg coeffs, 0 upgd conss, 354676 impls, 0 clqs
+presolving (3 rounds):
+ 28620 deleted vars, 812508 deleted constraints, 0 added constraints, 28279 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 354676 implications, 0 cliques
+presolved problem has 0 variables (0 bin, 0 int, 0 impl, 0 cont) and 0 constraints
+Presolving Time: 4.96
+
+ time | node  | left  |LP iter|LP it/n| mem |mdpt |frac |vars |cons |cols |rows |cuts |confs|strbr|  dualbound   | primalbound  |  gap   
+t 6.5s|     1 |     0 |     0 |     - | 415M|   0 |   - |   0 |   0 |   0 |   0 |   0 |   0 |   0 |      --      |-5.884846e+06 |    Inf 
+  6.5s|     1 |     0 |     0 |     - | 415M|   0 |   - |   0 |   0 |   0 |   0 |   0 |   0 |   0 |-5.884846e+06 |-5.884846e+06 |   0.00%
+
+SCIP Status        : problem is solved [optimal solution found]
+Solving Time (sec) : 6.52
+Solving Nodes      : 1
+Primal Bound       : -5.88484581757852e+06 (1 solutions)
+Dual Bound         : -5.88484581757852e+06
+Gap                : 0.00 %
+
+primal solution:
+================
+
+objective value:                    -5884845.81757852
+x$Amineh_AGHA@61                                    1 	(obj:809.674418604648)
+x$Amineh_AGHA@6f                                    1 	(obj:809.674418604648)
+x$Jackson_BA@332                                    1 	(obj:600)
+x$Jackson_BA@334                                    1 	(obj:600)
+x$Andrew_BER@4f7                                    1 	(obj:1161.33333333334)
+x$Andrew_BER@501                                    1 	(obj:987.999999999996)
+x$Cody_CARR$@739                                    1 	(obj:984.466019417472)
+x$Cody_CARR$@749                                    1 	(obj:984.466019417472)
+x$Laura_CHON@9a5                                    1 	(obj:1008.19047619048)
+x$Laura_CHON@9aa                                    1 	(obj:914.85714285714)
+x$David_CLUF@c30                                    1 	(obj:1160)
+x$David_CLUF@c32                                    1 	(obj:600)
+x$Joya_COOLE@dee                                    1 	(obj:1041.74358974359)
+x$Joya_COOLE@df2                                    1 	(obj:801.743589743592)
+x$Youtian_CU@e87                                    1 	(obj:904.857142857144)
+x$Youtian_CU@e89                                    1 	(obj:1084.85714285714)
+x$Kasey_DEV@1089                                    1 	(obj:800.000000000004)
+x$Kasey_DEV@1091                                    1 	(obj:800.000000000004)
+x$Ryan_DOUG@13a3                                    1 	(obj:600)
+x$Ryan_DOUG@13a6                                    1 	(obj:1120)
+x$Kellie_EN@1421                                    1 	(obj:1012)
+x$Kellie_EN@1424                                    1 	(obj:1012)
+x$Jeremy_ER@1474                                    1 	(obj:612)
+x$Jeremy_ER@1476                                    1 	(obj:612)
+x$Ace_GALER@16df                                    1 	(obj:612)
+x$Ace_GALER@16e0                                    1 	(obj:612)
+x$Martin_HA@1a80                                    1 	(obj:801.473684210532)
+x$Martin_HA@1a81                                    1 	(obj:801.473684210532)
+x$Ruirui_HA@1b19                                    1 	(obj:1012)
+x$Ruirui_HA@1b1f                                    1 	(obj:1012)
+x$Colin_HAR@1c51                                    1 	(obj:600)
+x$Colin_HAR@1c54                                    1 	(obj:200.000000000004)
+x$Yufei_HU$@1eb4                                    1 	(obj:600)
+x$Yufei_HU$@1eba                                    1 	(obj:600)
+x$Marshall_@1fb6                                    1 	(obj:612)
+x$Marshall2@2052                                    1 	(obj:600)
+x$Sommer_JO@212a                                    1 	(obj:954.857142857148)
+x$Sommer_JO@212b                                    1 	(obj:1154.85714285714)
+x$AnoopjitS@22f6                                    1 	(obj:1012)
+x$AnoopjitS@22fa                                    1 	(obj:985.333333333332)
+x$TingYi_LA@2391                                    1 	(obj:600)
+x$TingYi_LA@2398                                    1 	(obj:600)
+x$Shannon_L@2603                                    1 	(obj:1142.85714285714)
+x$Shannon29@269f                                    1 	(obj:600)
+x$Chun_LIN$@2903                                    1 	(obj:600)
+x$Chun_LIN$@2906                                    1 	(obj:600)
+x$Calvin_LY@2b85                                    1 	(obj:600)
+x$Calvin_LY@2b8d                                    1 	(obj:600)
+x$Chandrima@2ca4                                    1 	(obj:612)
+x$Chandrima@2ca5                                    1 	(obj:612)
+x$Justin_MA@2e14                                    1 	(obj:897.169811320752)
+x$Justin_MA@2e1d                                    1 	(obj:897.169811320752)
+x$Morgan_MA@2f73                                    1 	(obj:612)
+x$Morgan_MA@2f77                                    1 	(obj:612)
+x$Nakul_MIS@309b                                    1 	(obj:790.846153846152)
+x$Nakul_MIS@30a1                                    1 	(obj:1190.84615384615)
+x$Lan_NA$00@3344                                    1 	(obj:279.999999999996)
+x$Lan_NA$00@3345                                    1 	(obj:600)
+x$Eshani_NA@34cb                                    1 	(obj:800.000000000004)
+x$Eshani_NA@34d2                                    1 	(obj:800.000000000004)
+x$Bradley_N@3735                                    1 	(obj:788.000000000004)
+x$Bradley_N@373d                                    1 	(obj:788.000000000004)
+x$Jason_OSW@38e0                                    1 	(obj:900)
+x$Jason_OSW@38e7                                    1 	(obj:900)
+x$Bryan_OWE@3a00                                    1 	(obj:600)
+x$Bryan_OWE@3a05                                    1 	(obj:600)
+x$SeHee_PAR@3b1f                                    1 	(obj:777.473684210532)
+x$SeHee_PAR@3b27                                    1 	(obj:777.473684210532)
+x$Kristin_P@3bda                                    1 	(obj:909.058823529408)
+x$Kristin_P@3be3                                    1 	(obj:909.058823529408)
+x$Christoph@3d34                                    1 	(obj:945.333333333336)
+x$Christoph@3d45                                    1 	(obj:945.333333333336)
+x$Jade_PRAT@3ef9                                    1 	(obj:793.578947368416)
+x$Xiao_QI$0@402e                                    1 	(obj:802.24390243902)
+x$Xiao_QI$0@402f                                    1 	(obj:802.24390243902)
+x$Pengzhan_@40a7                                    1 	(obj:990.476190476196)
+x$Pengzhan_@40b7                                    1 	(obj:990.476190476196)
+x$Jonathan_@42fe                                    1 	(obj:612)
+x$Jonathan_@4305                                    1 	(obj:612)
+x$Philip_SC@4447                                    1 	(obj:888)
+x$Philip_SC@444a                                    1 	(obj:888)
+x$Timothy_S@45a1                                    1 	(obj:612)
+x$Timothy_S@45a8                                    1 	(obj:612)
+x$Joshua_ST@486a                                    1 	(obj:600)
+x$Joshua_ST@486b                                    1 	(obj:600)
+x$Cary_STEN@4920                                    1 	(obj:840)
+x$Cary_STEN@4921                                    1 	(obj:600)
+x$Zachary_S@49d5                                    1 	(obj:973.333333333332)
+x$Zachary_S@49d8                                    1 	(obj:600)
+x$Wan_Chih_@4a24                                    1 	(obj:612)
+x$Wan_Chih_@4a2c                                    1 	(obj:612)
+x$Michael_T@4c8b                                    1 	(obj:789.743589743592)
+x$Michael_T@4c95                                    1 	(obj:1189.74358974359)
+x$Charles_T@4eb1                                    1 	(obj:600)
+x$Charles_T@4eb4                                    1 	(obj:600)
+x$Elyse_TOW@505a                                    1 	(obj:912)
+x$Victoria_@512f                                    1 	(obj:999.999999999996)
+x$Victoria_@5131                                    1 	(obj:999.999999999996)
+x$Robert_TU@522d                                    1 	(obj:1150)
+x$Robert_TU@5234                                    1 	(obj:890.000000000004)
+x$Eliane_VI@53d4                                    1 	(obj:800.000000000004)
+x$Daniel_WA@5509                                    1 	(obj:997.185185185188)
+x$Daniel_WA@550e                                    1 	(obj:997.185185185188)
+x$Shuai_WAN@563a                                    1 	(obj:912)
+x$Shuai_WAN@5649                                    1 	(obj:912)
+x$Henry_WED@56d9                                    1 	(obj:600)
+x$Henry_WED@56de                                    1 	(obj:600)
+x$Rachel_WE@57b3                                    1 	(obj:612)
+x$Zhongxing@5a8a                                    1 	(obj:992.952380952384)
+x$Zhongxing@5a8b                                    1 	(obj:992.952380952384)
+x$Evan_YOUN@5bc2                                    1 	(obj:900)
+x$Evan_YOUN@5bca                                    1 	(obj:900)
+x$Qinhong_Y@5c9e                                    1 	(obj:245.61403508772)
+x$Chenguang@6081                                    1 	(obj:1171.74110032362)
+x$Chenguang@6084                                    1 	(obj:798.407766990288)
+x$Sadia_Nas@6166                                    1 	(obj:612)
+x$Sadia_Nas@6169                                    1 	(obj:612)
+x$Ketwee_Sa@6204                                    1 	(obj:612)
+x$Ketwee_Sa@620a                                    1 	(obj:612)
+x$Juri_Faku@628c                                    1 	(obj:1052)
+x$Juri_Faku@6290                                    1 	(obj:812.000000000004)
+x$Carl_Form@630a                                    1 	(obj:984.415584415584)
+x$Carl_Form@630f                                    1 	(obj:1184.41558441559)
+x$Melissa_N@63a1                                    1 	(obj:900)
+x$Melissa_N@63a2                                    1 	(obj:900)
+x$Josh_Gods@6464                                    1 	(obj:600)
+x$Josh_Gods@646a                                    1 	(obj:920.000000000004)
+x$Yunjia_La@64e2                                    1 	(obj:612)
+x$Zengwei_Z@6534                                    1 	(obj:923.111111111112)
+x$Zengwei_Z@6539                                    1 	(obj:923.111111111112)
+x$Ashwin_Ga@6620                                    1 	(obj:913.333333333332)
+x$Ashwin_Ga@662f                                    1 	(obj:833.333333333328)
+x$Zeyu_Zhou@66ac                                    1 	(obj:600)
+x$Zeyu_Zhou@66b1                                    1 	(obj:600)
+x$Zhenyu_Du@6767                                    1 	(obj:900)
+x$Zhenyu_Du@6768                                    1 	(obj:900)
+x$Xingchen_@6787                                    1 	(obj:300.888888888888)
+x$Xingchen_@6788                                    1 	(obj:300.888888888888)
+x$Cunyi_Zha@689f                                    1 	(obj:612)
+x$Cunyi_Zha@68a3                                    1 	(obj:372)
+x$Zheng_Zha@68f4                                    1 	(obj:612)
+x$Zheng_Zha@68fd                                    1 	(obj:612)
+x$Chongyang@69be                                    1 	(obj:600)
+x$Chongyang@69ca                                    1 	(obj:600)
+x$Yiwen_Zhu@6a22                                    1 	(obj:600)
+x$Yiwen_Zhu@6a26                                    1 	(obj:600)
+x$Peixin_Ta@6ad8                                    1 	(obj:600)
+x$Nian_Xion@6b9a                                    1 	(obj:802.163934426228)
+x$Nian_Xion@6ba6                                    1 	(obj:802.163934426228)
+x$Danny1$00@6bda                                    1 	(obj:-3000000)
+x$Danny1$00@6bdb                                    1 	(obj:-3000000)
+y$Amineh_AG@71eb                                    1 	(obj:-12)
+y$Amineh_AG@71ec                                    1 	(obj:-12)
+y$Andrew_BE@7210                                    1 	(obj:12)
+y$Andrew_BE@7211                                    1 	(obj:12)
+y$Andrew_BE@7212                                    1 	(obj:12)
+y$Andrew_BE@7213                                    1 	(obj:12)
+y$Laura_CHO@7238                                    1 	(obj:-12)
+y$Laura_CHO@7239                                    1 	(obj:-12)
+y$Laura_CHO@723b                                    1 	(obj:-12)
+y$Joya_COOL@725b                                    1 	(obj:-12)
+y$Joya_COOL@725c                                    1 	(obj:-12)
+y$Youtian_C@7260                                    1 	(obj:-12)
+y$Youtian_C@7261                                    1 	(obj:-12)
+y$Youtian_C@7263                                    1 	(obj:-12)
+y$Kellie_EN@728d                                    1 	(obj:-12)
+y$Kellie_EN@7291                                    1 	(obj:-12)
+y$Jeremy_ER@7292                                    1 	(obj:-12)
+y$Jeremy_ER@7294                                    1 	(obj:-12)
+y$Jeremy_ER@7295                                    1 	(obj:-12)
+y$Ace_GALER@72a7                                    1 	(obj:-12)
+y$Ace_GALER@72a8                                    1 	(obj:-12)
+y$Ace_GALER@72a9                                    1 	(obj:-12)
+y$Martin_HA@72c5                                    1 	(obj:-12)
+y$Martin_HA@72c6                                    1 	(obj:-12)
+y$Martin_HA@72c7                                    1 	(obj:-12)
+y$Ruirui_HA@72c9                                    1 	(obj:-12)
+y$Ruirui_HA@72cb                                    1 	(obj:-12)
+y$Ruirui_HA@72cd                                    1 	(obj:-12)
+y$Marshall_@72ed                                    1 	(obj:-12)
+y$Marshall_@72f0                                    1 	(obj:-12)
+y$Sommer_JO@72fc                                    1 	(obj:-12)
+y$Sommer_JO@72fd                                    1 	(obj:-12)
+y$Sommer_JO@72fe                                    1 	(obj:-12)
+y$AnoopjitS@730a                                    1 	(obj:-12)
+y$AnoopjitS@730b                                    1 	(obj:-12)
+y$AnoopjitS@730d                                    1 	(obj:-12)
+y$Chandrima@735a                                    1 	(obj:-12)
+y$Chandrima@735d                                    1 	(obj:-12)
+y$Chandrima@735e                                    1 	(obj:-12)
+y$Morgan_MA@736f                                    1 	(obj:-12)
+y$Morgan_MA@7370                                    1 	(obj:-12)
+y$Morgan_MA@7372                                    1 	(obj:-12)
+y$Nakul_MIS@7379                                    1 	(obj:-12)
+y$Nakul_MIS@737a                                    1 	(obj:-12)
+y$Bradley_N@73af                                    1 	(obj:12)
+y$Bradley_N@73b0                                    1 	(obj:12)
+y$Bradley_N@73b1                                    1 	(obj:12)
+y$Bradley_N@73b2                                    1 	(obj:12)
+y$SeHee_PAR@73d2                                    1 	(obj:12)
+y$SeHee_PAR@73d3                                    1 	(obj:12)
+y$SeHee_PAR@73d4                                    1 	(obj:12)
+y$SeHee_PAR@73d5                                    1 	(obj:12)
+y$Kristin_P@73d7                                    1 	(obj:-12)
+y$Kristin_P@73db                                    1 	(obj:-12)
+y$Christoph@73e1                                    1 	(obj:-12)
+y$Christoph@73e3                                    1 	(obj:-12)
+y$Jade_PRAT@73f0                                    1 	(obj:-12)
+y$Xiao_QI$M@73fa                                    1 	(obj:-12)
+y$Xiao_QI$T@73fb                                    1 	(obj:-12)
+y$Xiao_QI$W@73fc                                    1 	(obj:-12)
+y$Xiao_QI$R@73fd                                    1 	(obj:-12)
+y$Jonathan_@7414                                    1 	(obj:-12)
+y$Jonathan_@7416                                    1 	(obj:-12)
+y$Jonathan_@7417                                    1 	(obj:-12)
+y$Philip_SC@741d                                    1 	(obj:12)
+y$Philip_SC@741e                                    1 	(obj:12)
+y$Philip_SC@741f                                    1 	(obj:12)
+y$Philip_SC@7421                                    1 	(obj:12)
+y$Timothy_S@7427                                    1 	(obj:-12)
+y$Timothy_S@7428                                    1 	(obj:-12)
+y$Timothy_S@742a                                    1 	(obj:-12)
+y$Wan_Chih_@7450                                    1 	(obj:-12)
+y$Wan_Chih_@7451                                    1 	(obj:-12)
+y$Wan_Chih_@7452                                    1 	(obj:-12)
+y$Elyse_TOW@7481                                    1 	(obj:-12)
+y$Daniel_WA@74a9                                    1 	(obj:-12)
+y$Daniel_WA@74ab                                    1 	(obj:-12)
+y$Shuai_WAN@74b3                                    1 	(obj:-12)
+y$Shuai_WAN@74b6                                    1 	(obj:-12)
+y$Shuai_WAN@74b7                                    1 	(obj:-12)
+y$Rachel_WE@74be                                    1 	(obj:-12)
+y$Zhongxing@74d6                                    1 	(obj:-12)
+y$Zhongxing@74d8                                    1 	(obj:-12)
+y$Chenguang@7508                                    1 	(obj:-12)
+y$Chenguang@750b                                    1 	(obj:-12)
+y$Chenguang@750c                                    1 	(obj:-12)
+y$Sadia_Nas@750d                                    1 	(obj:-12)
+y$Sadia_Nas@7510                                    1 	(obj:-12)
+y$Sadia_Nas@7511                                    1 	(obj:-12)
+y$Ketwee_Sa@7512                                    1 	(obj:-12)
+y$Ketwee_Sa@7515                                    1 	(obj:-12)
+y$Ketwee_Sa@7516                                    1 	(obj:-12)
+y$Juri_Faku@7517                                    1 	(obj:-12)
+y$Juri_Faku@7519                                    1 	(obj:-12)
+y$Juri_Faku@751a                                    1 	(obj:-12)
+y$Yunjia_La@752b                                    1 	(obj:-12)
+y$Yunjia_La@752c                                    1 	(obj:-12)
+y$Zengwei_Z@7530                                    1 	(obj:-12)
+y$Zengwei_Z@7532                                    1 	(obj:-12)
+y$Zengwei_Z@7533                                    1 	(obj:-12)
+y$Xingchen_@7544                                    1 	(obj:-12)
+y$Xingchen_@7545                                    1 	(obj:-12)
+y$Xingchen_@7547                                    1 	(obj:-12)
+y$Cunyi_Zha@7549                                    1 	(obj:-12)
+y$Cunyi_Zha@754a                                    1 	(obj:-12)
+y$Cunyi_Zha@754c                                    1 	(obj:-12)
+y$Zheng_Zha@754e                                    1 	(obj:-12)
+y$Zheng_Zha@7550                                    1 	(obj:-12)
+y$Zheng_Zha@7551                                    1 	(obj:-12)
+y$Nian_Xion@7562                                    1 	(obj:-12)
+y$Nian_Xion@7563                                    1 	(obj:-12)
+
+Statistics
+==========
+
+SCIP Status        : problem is solved [optimal solution found]
+Total Time         :       8.91
+  solving          :       6.52
+  presolving       :       4.96 (included in solving)
+  reading          :       2.39
+  copying          :       0.00 (0 times copied the problem)
+Original Problem   :
+  Problem name     : input.lp
+  Variables        : 28620 (0 binary, 28620 integer, 0 implicit integer, 0 continuous)
+  Constraints      : 812508 initial, 812508 maximal
+  Objective sense  : maximize
+Presolved Problem  :
+  Problem name     : t_input.lp
+  Variables        : 0 (0 binary, 0 integer, 0 implicit integer, 0 continuous)
+  Constraints      : 0 initial, 0 maximal
+Presolvers         :   ExecTime  SetupTime  Calls  FixedVars   AggrVars   ChgTypes  ChgBounds   AddHoles    DelCons    AddCons   ChgSides   ChgCoefs
+  boundshift       :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  components       :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  convertinttobin  :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  domcol           :       0.00       0.00      1          0          0          0          0          0          0          0          0          0
+  dualinfer        :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  gateextraction   :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  implics          :       0.00       0.00      3          0          0          0          0          0          0          0          0          0
+  inttobinary      :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  trivial          :       0.00       0.00      3          0          0          0          0          0          0          0          0          0
+  dualfix          :       0.00       0.00      3        341          0          0          0          0          0          0          0          0
+  genvbounds       :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  probing          :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  pseudoobj        :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  linear           :       3.44       0.36      0      28279          0          0      28279          0     812508          0          0          0
+  root node        :          -          -      -          0          -          -          0          -          -          -          -          -
+Constraints        :     Number  MaxNumber  #Separate #Propagate    #EnfoLP    #EnfoPS     #Check   #ResProp    Cutoffs    DomReds       Cuts    Applied      Conss   Children
+  integral         :          0          0          0          0          0          0          2          0          0          0          0          0          0          0
+  countsols        :          0          0          0          0          0          0          2          0          0          0          0          0          0          0
+Constraint Timings :  TotalTime  SetupTime   Separate  Propagate     EnfoLP     EnfoPS      Check    ResProp    SB-Prop
+  integral         :       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00
+  countsols        :       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00
+Propagators        : #Propagate   #ResProp    Cutoffs    DomReds
+  dualfix          :          0          0          0          0
+  genvbounds       :          0          0          0          0
+  obbt             :          0          0          0          0
+  probing          :          0          0          0          0
+  pseudoobj        :          0          0          0          0
+  redcost          :          0          0          0          0
+  rootredcost      :          0          0          0          0
+  vbounds          :          0          0          0          0
+Propagator Timings :  TotalTime  SetupTime   Presolve  Propagate    ResProp    SB-Prop
+  dualfix          :       0.00       0.00       0.00       0.00       0.00       0.00
+  genvbounds       :       0.00       0.00       0.00       0.00       0.00       0.00
+  obbt             :       0.00       0.00       0.00       0.00       0.00       0.00
+  probing          :       0.00       0.00       0.00       0.00       0.00       0.00
+  pseudoobj        :       0.00       0.00       0.00       0.00       0.00       0.00
+  redcost          :       0.00       0.00       0.00       0.00       0.00       0.00
+  rootredcost      :       0.00       0.00       0.00       0.00       0.00       0.00
+  vbounds          :       0.00       0.00       0.00       0.00       0.00       0.00
+Conflict Analysis  :       Time      Calls    Success    DomReds  Conflicts   Literals    Reconvs ReconvLits   LP Iters
+  propagation      :       0.00          0          0          -          0        0.0          0        0.0          -
+  infeasible LP    :       0.00          0          0          -          0        0.0          0        0.0          0
+  bound exceed. LP :       0.00          0          0          -          0        0.0          0        0.0          0
+  strong branching :       0.00          0          0          -          0        0.0          0        0.0          0
+  pseudo solution  :       0.00          1          0          -          0        0.0          0        0.0          -
+  applied globally :       0.00          -          -          0          0        0.0          -          -          -
+  applied locally  :          -          -          -          0          0        0.0          -          -          -
+Separators         :   ExecTime  SetupTime      Calls    Cutoffs    DomReds       Cuts    Applied      Conss
+  cut pool         :       0.00                     0          -          -          0          -          -    (maximal pool size: 0)
+  cgmip            :       0.00       0.00          0          0          0          0          0          0
+  clique           :       0.00       0.00          0          0          0          0          0          0
+  closecuts        :       0.00       0.00          0          0          0          0          0          0
+  cmir             :       0.00       0.00          0          0          0          0          0          0
+  flowcover        :       0.00       0.00          0          0          0          0          0          0
+  gomory           :       0.00       0.00          0          0          0          0          0          0
+  impliedbounds    :       0.00       0.00          0          0          0          0          0          0
+  intobj           :       0.00       0.00          0          0          0          0          0          0
+  mcf              :       0.00       0.00          0          0          0          0          0          0
+  oddcycle         :       0.00       0.00          0          0          0          0          0          0
+  rapidlearning    :       0.00       0.00          0          0          0          0          0          0
+  strongcg         :       0.00       0.00          0          0          0          0          0          0
+  zerohalf         :       0.00       0.00          0          0          0          0          0          0
+Pricers            :   ExecTime  SetupTime      Calls       Vars
+  problem variables:       0.00          -          0          0
+Branching Rules    :   ExecTime  SetupTime   BranchLP  BranchExt   BranchPS    Cutoffs    DomReds       Cuts      Conss   Children
+  allfullstrong    :       0.00       0.00          0          0          0          0          0          0          0          0
+  cloud            :       0.00       0.00          0          0          0          0          0          0          0          0
+  fullstrong       :       0.00       0.00          0          0          0          0          0          0          0          0
+  inference        :       0.00       0.00          0          0          0          0          0          0          0          0
+  leastinf         :       0.00       0.00          0          0          0          0          0          0          0          0
+  mostinf          :       0.00       0.00          0          0          0          0          0          0          0          0
+  pscost           :       0.00       0.00          0          0          0          0          0          0          0          0
+  random           :       0.00       0.00          0          0          0          0          0          0          0          0
+  relpscost        :       0.00       0.00          0          0          0          0          0          0          0          0
+Primal Heuristics  :   ExecTime  SetupTime      Calls      Found
+  LP solutions     :       0.00          -          -          0
+  pseudo solutions :       0.00          -          -          0
+  strong branching :       0.00          -          -          0
+  actconsdiving    :       0.00       0.00          0          0
+  clique           :       0.00       0.00          0          0
+  coefdiving       :       0.00       0.00          0          0
+  crossover        :       0.00       0.00          0          0
+  dins             :       0.00       0.00          0          0
+  dualval          :       0.00       0.00          0          0
+  feaspump         :       0.00       0.00          0          0
+  fixandinfer      :       0.00       0.00          0          0
+  fracdiving       :       0.00       0.00          0          0
+  guideddiving     :       0.00       0.00          0          0
+  intdiving        :       0.00       0.00          0          0
+  intshifting      :       0.00       0.00          0          0
+  linesearchdiving :       0.00       0.00          0          0
+  localbranching   :       0.00       0.00          0          0
+  mutation         :       0.00       0.00          0          0
+  nlpdiving        :       0.00       0.00          0          0
+  objpscostdiving  :       0.00       0.00          0          0
+  octane           :       0.00       0.00          0          0
+  oneopt           :       0.00       0.00          0          0
+  proximity        :       0.00       0.00          0          0
+  pscostdiving     :       0.00       0.00          0          0
+  randrounding     :       0.00       0.00          0          0
+  rens             :       0.00       0.00          0          0
+  rins             :       0.00       0.00          0          0
+  rootsoldiving    :       0.00       0.00          0          0
+  rounding         :       0.00       0.00          0          0
+  shiftandpropagate:       0.00       0.00          0          0
+  shifting         :       0.00       0.00          0          0
+  simplerounding   :       0.00       0.00          0          0
+  subnlp           :       0.00       0.00          0          0
+  trivial          :       0.04       0.00          2          1
+  trysol           :       0.00       0.00          0          0
+  twoopt           :       0.00       0.00          0          0
+  undercover       :       0.00       0.00          0          0
+  vbounds          :       0.00       0.00          0          0
+  veclendiving     :       0.00       0.00          0          0
+  zeroobj          :       0.00       0.00          0          0
+  zirounding       :       0.00       0.00          0          0
+  other solutions  :          -          -          -          0
+LP                 :       Time      Calls Iterations  Iter/call   Iter/sec  Time-0-It Calls-0-It
+  primal LP        :       0.00          0          0       0.00          -       0.00          0
+  dual LP          :       0.00          0          0       0.00          -       0.00          0
+  lex dual LP      :       0.00          0          0       0.00          -
+  barrier LP       :       0.00          0          0       0.00          -       0.00          0
+  diving/probing LP:       0.00          0          0       0.00          -
+  strong branching :       0.00          0          0       0.00          -
+    (at root node) :          -          0          0       0.00          -
+  conflict analysis:       0.00          0          0       0.00          -
+B&B Tree           :
+  number of runs   :          1
+  nodes            :          1 (0 internal, 1 leaves)
+  nodes (total)    :          1 (0 internal, 1 leaves)
+  nodes left       :          0
+  max depth        :          0
+  max depth (total):          0
+  backtracks       :          0 (0.0%)
+  delayed cutoffs  :          0
+  repropagations   :          0 (0 domain reductions, 0 cutoffs)
+  avg switch length:       2.00
+  switching time   :       0.00
+Root Node          :
+  First LP value   :          -
+  First LP Iters   :          0
+  First LP Time    :       0.00
+  Final Dual Bound : -5.88484581757852e+06
+  Final Root Iters :          0
+Solution           :
+  Solutions found  :          1 (1 improvements)
+  First Solution   : -5.88484581757852e+06   (in run 1, after 1 nodes, 6.52 seconds, depth 0, found by <trivial>)
+  Gap First Sol.   :   infinite
+  Gap Last Sol.    :   infinite
+  Primal Bound     : -5.88484581757852e+06   (in run 1, after 1 nodes, 6.52 seconds, depth 0, found by <trivial>)
+  Dual Bound       : -5.88484581757852e+06
+  Gap              :       0.00 %
+  Avg. Gap         :     100.00 % (652.00 primal-dual integral)
